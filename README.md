@@ -48,10 +48,10 @@ Backend api node typescript                   ==>   Required by the assignment \
 JWT auth and bscrypt js                       ==>   To keep it simple and use auth provider as the assignment required \
 Express                                       ==>   Because this is a simple project \
 MySQL Raw Queries (did not use sequelize)     ==>   Because I want to do everthing from scrach as this is a test \
-MySQL DB                                      ==>   For easy and costless hosting \
+MySQL DB                                      ==>   For easy and costless hosting 
 
 React js for the front-end                    ==>   Required by the assignment \
-ReduxToolKit                                  ==>   Client store management \
+ReduxToolKit                                  ==>   Client store management 
 
 Socket.io                                     ==>   For realtime client and server communications
 
