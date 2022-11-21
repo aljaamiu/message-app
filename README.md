@@ -39,7 +39,7 @@ If the selected user is blocked the block button show a green plus sign in the b
 If the selected user is not blocked the block button show a red minus sign in the block button \
 Any user you blocked cannot see you on their users list \
 When you unblock a user there is no lose of your previous message history before you blocked the user \
-The name of any user with unread message changed to green to tell that there is a new message from that user \
+The name of any user with unread message changed to green to tell that there is a new message from that user
 
 
 Tools and Reasons: I have tried to do all from the scrach except those the assignment prevented me from
@@ -59,7 +59,7 @@ Socket.io                                     ==>   For realtime client and serv
 
 NOTE: The below was not used in this project.
 --------------------------------------------------------------------------------------------------------------------------------------------------
-            I do have self developed packages that I use in my project to make things fast and avoid doing something I already did before \
+            I do have self developed packages that I use in my project to make things fast and avoid doing something I already did before.
             such as:
-             a my-sql-helper it works like sequelize with more personal futures which I can't get from sequelize package \
-             my-auth-helper which works like jwt plus bscrypt and in addition it manage sessions, all users activity logs and last activity tracking
+             a my-sql-helper it works like sequelize with more personal futures which I can't get from sequelize package.
+             my-auth-helper which works like jwt plus bscrypt and in addition it manage sessions, all users activity logs and last activity tracking.
