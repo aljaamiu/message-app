@@ -8,7 +8,7 @@ This repo contain the backend and frontend
 
 DataBase: MySQL 
 ----------------------------------------------------------------------------------------------------------------
-Change the settings at back-end -> src -> config -> config.ts
+Change the settings at back-end -> src -> config -> config.ts \
 Import the database from back-end -> src -> DB 
 
 Backend setup:
@@ -16,14 +16,14 @@ Backend setup:
 Navigate into back-end\
 npm install \
 npm run build \
-npm start or npm run dev \
+npm start or npm run dev
 
 
 Frontend setup:
 -------------------------------------------------------------------------------------------------------------------
 Navigate into front-end\
 npm install\
-npm start\
+npm start
 
 Features: All work in realtime so no need to refresh page or wait for sometime
 -------------------------------------------------------------------------------------------------------------------
