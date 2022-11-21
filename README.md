@@ -3,6 +3,12 @@
 App is running at https://emychatclient.herokuapp.com/
 
 
+Developer:
+--------------------------------------------------------------------------------------------------------------
+Name: Yakubu Muhammed-Jamiu \
+Email: yakubumuhammedjaamiu@gmail.com
+
+
 This repo contain the backend and frontend
 
 
