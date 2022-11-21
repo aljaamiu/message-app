@@ -27,6 +27,7 @@ npm start
 
 Features: All work in realtime so no need to refresh page or wait for sometime
 -------------------------------------------------------------------------------------------------------------------
+Only Desktop screen is considered in the UI, it isn't responsive on mobile screen so you'll have horizontal scroll \
 Only registered user can login \
 Only login user can access the messaging page \
 Only the list of current login users can be seen and messaged \
