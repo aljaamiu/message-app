@@ -38,7 +38,8 @@ The unblock and block button is at the top right of the message page after selec
 If the selected user is blocked the block button show a green plus sign in the block button \
 If the selected user is not blocked the block button show a red minus sign in the block button \
 Any user you blocked cannot see you on their users list \
-When you unblock a user there is no lose of your previous message history before you blocked the user
+When you unblock a user there is no lose of your previous message history before you blocked the user \
+The name of any user with unread message changed to green to tell that there is a new message from that user \
 
 
 Tools and Reasons: I have tried to do all from the scrach except those the assignment prevented me from
@@ -56,7 +57,8 @@ Socket.io                                     ==>   For realtime client and serv
 
 
 
-NOTE
+NOTE: The below was not used in this project.
+--------------------------------------------------------------------------------------------------------------------------------------------------
             I do have self developed packages that I use in my project to make things fast and avoid doing something I already did before \
             such as:
              a my-sql-helper it works like sequelize with more personal futures which I can't get from sequelize package \
