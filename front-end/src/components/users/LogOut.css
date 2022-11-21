@@ -1,0 +1,27 @@
+#new-message-container {
+    background: #4a1179;
+  }
+  
+  #new-message-container {
+    display: grid;
+    grid: 40px / 130px;
+    align-content: center;
+    grid-area: new-message-container;
+    border-top: 1px solid #9250c9;
+    /* border-radius: 0 0 0 10px; */
+    cursor: pointer;
+    padding: 0 25%;
+  }
+  
+  #new-message-container button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #9250c9;
+    background: #eee;
+    border-radius: 5%;
+    color: #7f39b9;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.6rem;
+  }

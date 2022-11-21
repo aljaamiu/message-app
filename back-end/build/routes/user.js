@@ -1,0 +1,22 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+const express_1 = __importDefault(require("express"));
+const user_1 = __importDefault(require("../controllers/user"));
+const checkJWT_1 = __importDefault(require("../middleware/checkJWT"));
+const router = express_1.default.Router();
+router.post('/register_user', user_1.default.register);
+router.get('/get_users', checkJWT_1.default, user_1.default.getAllusers);
+// router.get('/get_users', [checkToken, lastActivity], controller.getAllusers);
+// router.get('/get_users', controller.getAllusers);
+// router.get('/block_user/:user_id', controller.blockUser);
+router.get('/block_user/:user_id', checkJWT_1.default, user_1.default.blockUser);
+// router.get('/unblock_user/:user_id', checkToken, controller.unblockUser);
+router.get('/blocked_users', checkJWT_1.default, user_1.default.getBlockedUsers);
+// router.get('/block_user/user_id/:user_id/name/:name', checkToken, controller.blockUser);
+// router.get('/validate_token', controller.validateToken);
+router.post('/login', user_1.default.login);
+router.get('/logout', checkJWT_1.default, user_1.default.logout);
+router.get('/update_user_status/:status', checkJWT_1.default, user_1.default.updateUserStatus);
+module.exports = router;

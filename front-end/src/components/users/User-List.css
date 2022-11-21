@@ -1,0 +1,5 @@
+#user-list {
+    grid-area: user-list;
+    background: #a968df;
+    overflow-y: scroll;
+}
