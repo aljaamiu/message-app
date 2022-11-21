@@ -49,7 +49,7 @@ Express                                       ==>   Because this is a simple pro
 MySQL Raw Queries (did not use sequelize)     ==>   Because I want to do everthing from scrach as this is a test \
 MySQL DB                                      ==>   For easy and costless hosting \
 
-React js                                      ==>   Required by the assignment \
+React js for the front-end                    ==>   Required by the assignment \
 ReduxToolKit                                  ==>   Client store management \
 
 Socket.io                                     ==>   For realtime client and server communications
@@ -57,4 +57,7 @@ Socket.io                                     ==>   For realtime client and serv
 
 
 NOTE
-                                                                          
+            I do have self developed packages that I use in my project to make things fast and avoid doing something I already did before \
+            such as:
+             a my-sql-helper it works like sequelize with more personal futures which I can't get from sequelize package \
+             my-auth-helper which works like jwt plus bscrypt and in addition it manage sessions, all users activity logs and last activity tracking
