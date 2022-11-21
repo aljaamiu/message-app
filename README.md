@@ -41,8 +41,11 @@ Any user you blocked cannot see you on their users list \
 When you unblock a user there is no lose of your previous message history before you blocked the user
 
 
-Tools and Reasons:
+Tools and Reasons: I have tried to do all from the scrach except those the assignment prevented me from
 -------------------------------------------------------------------------------------------------------------------
+Backend api node typescript   ==>   Required by the assignment \
+JWT auth and bscrypt js       ==>   To keep it simple and use auth provider as the assignment required \
+Express                       ==>   Because this is a simple project \
 
 
 
