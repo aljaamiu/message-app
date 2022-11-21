@@ -43,9 +43,16 @@ When you unblock a user there is no lose of your previous message history before
 
 Tools and Reasons: I have tried to do all from the scrach except those the assignment prevented me from
 -------------------------------------------------------------------------------------------------------------------
-Backend api node typescript   ==>   Required by the assignment \
-JWT auth and bscrypt js       ==>   To keep it simple and use auth provider as the assignment required \
-Express                       ==>   Because this is a simple project \
+Backend api node typescript                   ==>   Required by the assignment \
+JWT auth and bscrypt js                       ==>   To keep it simple and use auth provider as the assignment required \
+Express                                       ==>   Because this is a simple project \
+MySQL Raw Queries (did not use sequelize)     ==>   Because I want to do everthing from scrach as this is a test \
+MySQL DB                                      ==>   For easy and costless hosting \
+
+React js                                      ==>   Required by the assignment \
+ReduxToolKit                                  ==>   Client store management \
+
+Socket.io                                     ==>   For realtime client and server communications
 
 
 
